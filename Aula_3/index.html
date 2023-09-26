@@ -1,1 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulário</title>
+</head>
+<body>
+    <!--Form(formulário) todo os dados de um formulário estão dentro da tag form-->
+    <form action=""></form>
+    <!--Label (etiqueta)-->
 
+      <!--Input para o tipo texto, usado para nome-->
+
+      <label for="text"> Nome </label>
+      <input type="text" id="text" name="text" placeholder="Digite seu nome" />
+
+      <!--Input para o tipo email, usado para email-->
+
+      <label for="email"> Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Digite seu email"
+      />
+
+      <!--Input para o tipo password, usado para senhas-->
+      <label for="password"> Senha</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Digite sua senha"
+      />
+
+      <!--Input para o tipo date, usado para datas-->
+      <label for="date"> Data de nascimento </label>
+      <input type="date" id="date" name="date" />
+
+      <!--Input para o tipo number, usado para números/quantidade-->
+      <label for="number">Qnt de pessoas</label>
+      <input type="number" id="number" name="number" min="0" max="10" />
+
+      <!--Input do tipo radio (Quer dizer, de um mesmo grupo "name"), para selecionar apenas uma opção-->
+
+      <!--O atributo NAME="grupo"-->
+
+      <h2> INPUT DO TIPO RADIO </h2>
+
+      <h3>Escolha o tamanho da sua camisa:</h3>
+<label for="pp">PP </label>
+<input type="radio" id="pp"name="camisa"/>
+
+<label for="p">P </label>
+<input type="radio" id="p" name="camisa"/>
+
+<label for="m">M </label>
+<input type="radio" id="m" name="camisa"/>
+
+<label for="g">G </label>
+
+<label for="gg">GG </label>
+<input type="radio" id="gg" name="camisa"/>
+
+</br>
+      <!--- Exemplo escolha entre sim ou não-->
+ <label for="sim"> Sim </label>
+<input type="radio" id="sim" name="opcao"/>
+<label for="nao">Não</label>
+<input type="radio" id="nao" name="opcao"/>
+
+<!-- Bônus , outros -->
+
+ <!-- <label for="outros">Outros</label>
+<input type="radio" id="outros" name="opcao" />  
+ <input type="text" id="text" name="text"maxlength="20"/>  -->
+
+<br/>
+<br/>
+
+<h2> INPUT DO TIPO CHECKBOX </h2>
+
+<!--Input do  tipo checkbox (Posso marcar quantos eu quiser)-->
+
+<!--O que tem na sua casa?-->
+
+<label for="geladeira"> Geladeira</label>
+<input type="checkbox" id="geladeira" name="geladeira"  />
+
+<label for="fogao"> Fogão</label>
+<input type="checkbox" id="fogao" name="fogao" />
+
+<label for="microondas">Microondas</label>
+<input type="checkbox" id="microondas" name="microondas"  />
+
+
+ <h2>Batata de Marechal</h2>
+
+<label for="calabresa"> Calabresa </label>
+<input type="checkbox" id="calabresa" name="calabresa"/>
+
+<label for="frango">Frango a passarinho</label>
+<input type="checkbox" id="frango" name="frango" /> 
+
+ </br>
+
+ <!--Bônus-->
+
+<!--Criar um campo para muito texto/mensagem-->
+
+ <!-- <label for="msg">Escreva sua mensagem </label> -->
+ <textarea id="msg" name="msg"  placeholder="Escreva a sua mensagem" maxlength="50"></textarea>
+
+</br>
+<!--Criar um input para resetar / limpar / apagar as informações-->
+
+<input type="reset" value="Eita, sumiu!" />
+</br>
+
+ <!--Criar um input para enviar dados para o servidor-->
+<input type="submit" value="Tudo certo!" />
+</body>
+</html>
