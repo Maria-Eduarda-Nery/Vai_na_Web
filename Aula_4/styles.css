@@ -1,0 +1,38 @@
+* {
+    margin: 0; /*margem, espaçamento externo*/
+    padding: 0; /*preenchimento, espaçamento interno*/
+    box-sizing: border-box; /*dimensionamento da caixa: caixa de borda*/
+  }
+  
+  
+  h1 {
+    color: red;
+  }
+  
+  /*Efeito cascata, o último tem o poder maior*/
+  
+  h2 {
+    color: blue;
+  }
+  
+  h2 {
+    color: green;
+  }
+  
+  h2 {
+    color: violet;
+  }
+  */
+  
+  /*class, é reaproveitada e reutilizada. Conseguimos reaproveitar class em qualquer tag*/
+  
+   .mesmaClass {
+    color: green;
+  }
+  
+  /*ID: IDENTIFICAÇÃO ÚNICA, NÃO POSSO REAPROVEITAR ID, ELE DEVE SER ÚNICO.*/
+  
+  #tituloUnico {
+    color: blue;
+  }
+  
