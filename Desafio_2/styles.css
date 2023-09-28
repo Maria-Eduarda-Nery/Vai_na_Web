@@ -39,21 +39,21 @@
 
   /*Estiização da main*/
   
-
-  .content .roupa {
-    border: solid red;
+.roupa {
+    border: solid rgb(255, 36, 36);
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 90px;
     margin-top: 30px;
+    align-content: center;
   }
   
   section {
-    width: 10vw;
-    height: 900x;
+    width: 800vw;
+    height: 9px;
     display: inline;
     align-items: center;
     justify-content: space-around;
-    padding-left: 30rem;
+    padding-left: 5rem;
   }
   
   h3,
