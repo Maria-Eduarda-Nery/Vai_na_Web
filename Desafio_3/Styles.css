@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' , sans-serif;
+ }
+
+ /*Layout*/
+    
+ header {
+    background: #252525 0% 0% no-repeat padding-box;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ header .logotipo {
+    width: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+
+header .logotipo img{
+    height: 10vh;
+}
+
+ h1 {
+    font-size: 2rem;
+    color: #FFFF;
+    font-family: 'Roboto Serif', Bold;
+ }
+
+ nav {
+    width: 20%;
+ }
+
+ header ul{
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ header nav ul img {
+    height: 6vh;
+ }
+
+ /*inicio das paginas*/ 
+
+ .pag1 .foto1 img {
+    height: 17vh;
+    width: 17vh;
+    display: flex;
+ }
+ 
+ .pag1 {
+    width: 100%;
+    height: 90vh;
+    background-image: url(Festeiro.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .pag1 .texto1 h2 {
+    font-family: 'Roboto Serif', Bold;
+    color: #FFFF;
+    font-size: 4rem;
+    height: 23vh;
+    width: 60%;
+    text-align: center;
+    justify-content: center;    
+    margin-left: 20%;
+    margin-top: 10%;
+ }
+
+.pag2 {
+    width: 100%;
+    height: 90vh;
+    background-image: url(leao.png);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #3a342f;
+ }
+
+.pag2 .texto2 {
+    font-size: 2.5rem;
+    height: 50vh;
+    width: 32%;
+    text-align: left;
+    justify-content: left;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.pag2 .texto2 h5 {
+    font-family: 'Roboto Serif', Bold;
+    font-size: 3.5rem;
+    margin-block-end: 5%;
+}
+
+.pag2 button {
+    border-radius: 4rem;
+    background-color: #3a342f;
+    font-family: 'Roboto' , Bold;
+    color: #FFFF;
+    font-size: 1.6rem;
+    height: 4rem;
+    width: 45%;
+    margin-top: 7%;
+}
+
+ .pag3 {
+    width: 100%;
+    height: 90vh;
+    background-image: url(chihuahua.png);
+    display: flex;
+    justify-content: right;
+ }
+ .pag3 .texto3 {
+    height: 25rem;
+    width: 30%;
+    font-size: 2.5rem;
+    text-align: left;
+    color: #FFFF;
+    margin-right: 20%;
+    margin-top: 10%;
+    font-family: 'Roboto' , sans-serif;
+ }
+
+ .pag3 .texto3 h5 {
+    font-family: 'Roboto Serif', Bold;
+    font-size: 3.5rem;
+    margin-block-end: 5%;
+ }
+ 
+ .pag3 button {
+    border-radius: 4rem;
+    background-color: white;
+    font-family: 'Roboto', Bold;
+    font-size: 1.6rem;
+    height: 4rem;
+    width: 45%;
+    margin-top: 7%;
+ }
+
+.creditos {
+    width: 100%;
+    height: 16vh;
+    background: #FFFF 0% 0% no-repeat padding-box;
+    font-size: 2.4rem;
+    color: #fd6a9a;
+    font-family: 'Roboto Serif', Bold;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+/*rodape*/ 
+
+footer {
+    width: 100%;
+    background: #eb4a7b 0% 0% no-repeat padding-box;
+    height: 15vh;
+    display: flex;
+    font-family: 'Roboto Serif', Bold;
+    color: #FFFF;
+    height: 40vh;
+}
+
+footer div .rodape {
+    display: flex;
+}
+
+footer h5{
+    font-size: 2rem;
+    display: flex;
+    margin-block-end: 5%;
+}
+
+footer span {
+    font-size: 1rem;
+    display: flex;
+}
